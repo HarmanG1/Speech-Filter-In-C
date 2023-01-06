@@ -15,7 +15,7 @@ struct HashTable {
   bool mtf;
   LinkedList **lists;
 };
-// creats the hash table using provided code
+// creats the hash table 
 HashTable *ht_create(uint32_t size, bool mtf) {
   HashTable *ht = (HashTable *)malloc(sizeof(HashTable));
   if (ht != NULL) {
